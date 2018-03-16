@@ -1,2 +1,2 @@
 # GWT
-GWT BOMs and POMs - GWT Dependencies und Starters
+GWT BOMs and POMs - GWT Dependencies and Starters
