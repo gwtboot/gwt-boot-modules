@@ -21,9 +21,15 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>com.github.lofidewanto</groupId>
+	<parent>
+		<groupId>com.github.lofidewanto</groupId>
+		<artifactId>gwt-modules</artifactId>
+		<version>${revision}</version>
+		<relativePath>../</relativePath>
+	</parent>
 	<artifactId>gwt-dependencies</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>${revision}</version>
 	<packaging>pom</packaging>
+	<name>gwt-dependencies</name>
+	<description>GWT Standard Dependencies</description>
 </project>
