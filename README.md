@@ -19,6 +19,7 @@ and you are good to go.
 
 | Name | Framework | Supported Browser Technology |
 | ------------- | ------------- |:-------------:| 
+| gwt-boot-starter-parent | Parent starter for GWT Boot | No web | 
 | gwt-boot-starter-ui-domino | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | 
 | gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | 
 | gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | 
