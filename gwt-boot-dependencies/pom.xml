@@ -31,4 +31,36 @@
 	<packaging>pom</packaging>
 	<name>gwt-boot-dependencies</name>
 	<description>GWT Boot Standard Dependencies</description>
+
+	<properties>
+		<!-- Dependency versions -->
+		<gwt.version>2.8.2</gwt.version>
+		<gwt-maven-plugin.version>1.0-rc-9</gwt-maven-plugin.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- GWT -->
+			<dependency>
+				<groupId>com.google.gwt</groupId>
+				<artifactId>gwt</artifactId>
+				<version>${gwt.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>net.ltgt.gwt.maven</groupId>
+					<artifactId>gwt-maven-plugin</artifactId>
+					<version>${gwt-maven-plugin.version}</version>
+					<extensions>true</extensions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 </project>

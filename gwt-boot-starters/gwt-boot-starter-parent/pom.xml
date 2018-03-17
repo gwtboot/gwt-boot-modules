@@ -23,11 +23,20 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.lofidewanto</groupId>
-		<artifactId>gwt-boot-starters</artifactId>
+		<artifactId>gwt-boot-dependencies</artifactId>
 		<version>${revision}</version>
+		<relativePath>../../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-starter-parent</artifactId>
 	<packaging>pom</packaging>
 	<name>gwt-boot-starter-parent</name>
 	<description>GWT Boot Starter Parent Dependencies</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+	</properties>
 </project>
