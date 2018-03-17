@@ -28,8 +28,11 @@
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-starters</artifactId>
-	<version>${revision}</version>
 	<packaging>pom</packaging>
 	<name>gwt-starters</name>
 	<description>GWT Starters Dependencies</description>
+
+	<modules>
+		<module>gwt-starter-parent</module>
+	</modules>
 </project>

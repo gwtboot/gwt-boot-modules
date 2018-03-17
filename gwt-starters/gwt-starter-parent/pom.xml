@@ -22,13 +22,13 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
+		<artifactId>gwt-starters</artifactId>
 		<groupId>com.github.lofidewanto</groupId>
-		<artifactId>gwt-modules</artifactId>
 		<version>${revision}</version>
-		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-dependencies</artifactId>
+
+	<artifactId>gwt-starter-parent</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-dependencies</name>
-	<description>GWT Standard Dependencies</description>
+	<name>gwt-starter-parent</name>
+	<description>GWT Starter Parent Dependencies</description>
 </project>
