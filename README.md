@@ -17,8 +17,7 @@ and you are good to go.
 
 ## List of all supported GWT frameworks
 
-|===
-| Name | Supported Browser Technology 
-
-| domino-ui 
-| Elemental2 
+| Name | Framework | Supported Browser Technology |
+| ------------- | ------------- |:-------------:| 
+| gwt-boot-starter-ui-demo | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | 
+| gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | 
