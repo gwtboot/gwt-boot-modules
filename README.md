@@ -1,5 +1,6 @@
 # GWT Boot: Starters
-GWT BOMs and POMs - GWT Dependencies and Starters
+
+## GWT BOMs and POMs - GWT Dependencies and Starters
 
 GWT Boot is basically a simple Starter dependencies collection 
 just like Spring Boot Starter dependencies.
@@ -13,3 +14,11 @@ if you want to get started using GWT and [Domino UI](https://github.com/vegegoku
 for your Material Design and [Elemental2](https://github.com/google/elemental2) just include the 
 spring-boot-starter-ui-domino dependency in your project, 
 and you are good to go.
+
+## List of all supported GWT frameworks
+
+|===
+| Name | Supported Browser Technology 
+
+| domino-ui 
+| Elemental2 
