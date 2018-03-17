@@ -26,7 +26,6 @@
 		<groupId>com.github.lofidewanto</groupId>
 		<version>${revision}</version>
 	</parent>
-
 	<artifactId>gwt-starter-parent</artifactId>
 	<packaging>pom</packaging>
 	<name>gwt-starter-parent</name>
