@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
  | Licensed to the Apache Software Foundation (ASF) under one
  | or more contributor license agreements.  See the NOTICE file
@@ -21,20 +21,13 @@
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.lofidewanto</groupId>
-	<artifactId>gwt-boot-modules</artifactId>
-	<version>${revision}</version>
+	<parent>
+		<artifactId>gwt-boot-modules</artifactId>
+		<groupId>com.github.lofidewanto</groupId>
+		<version>${revision}</version>
+	</parent>
+	<artifactId>gwt-boot-samples</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-boot-modules</name>
-	<description>GWT Boot Modules</description>
-
-	<properties>
-		<revision>1.0.0-SNAPSHOT</revision>
-	</properties>
-
-	<modules>
-		<module>gwt-boot-starters</module>
-		<module>gwt-boot-dependencies</module>
-		<module>gwt-boot-samples</module>
-	</modules>
+	<name>gwt-boot-samples</name>
+	<description>GWT Boot Samples</description>
 </project>
