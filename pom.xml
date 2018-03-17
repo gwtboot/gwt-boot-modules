@@ -22,18 +22,18 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.lofidewanto</groupId>
-	<artifactId>gwt-modules</artifactId>
+	<artifactId>gwt-boot-modules</artifactId>
 	<version>${revision}</version>
 	<packaging>pom</packaging>
-	<name>gwt-modules</name>
-	<description>GWT Modules</description>
+	<name>gwt-boot-modules</name>
+	<description>GWT Boot Modules</description>
 
 	<properties>
 		<revision>1.0.0-SNAPSHOT</revision>
 	</properties>
 
 	<modules>
-		<module>gwt-starters</module>
-		<module>gwt-dependencies</module>
+		<module>gwt-boot-starters</module>
+		<module>gwt-boot-dependencies</module>
 	</modules>
 </project>

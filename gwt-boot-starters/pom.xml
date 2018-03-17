@@ -23,16 +23,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.lofidewanto</groupId>
-		<artifactId>gwt-modules</artifactId>
+		<artifactId>gwt-boot-modules</artifactId>
 		<version>${revision}</version>
 		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-starters</artifactId>
+	<artifactId>gwt-boot-starters</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-starters</name>
-	<description>GWT Starters Dependencies</description>
+	<name>gwt-boot-starters</name>
+	<description>GWT Boot Starters Dependencies</description>
 
 	<modules>
-		<module>gwt-starter-parent</module>
+		<module>gwt-boot-starter-parent</module>
 	</modules>
 </project>
