@@ -25,6 +25,7 @@
 		<groupId>com.github.lofidewanto</groupId>
 		<artifactId>gwt-boot-modules</artifactId>
 		<version>${revision}</version>
+		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-samples</artifactId>
 	<packaging>pom</packaging>
