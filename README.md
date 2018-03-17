@@ -24,3 +24,8 @@ and you are good to go.
 | gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | 
 | gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | 
 | gwt-boot-starter-ui-errai | [errai](https://github.com/errai/errai) | Elemental2 | 
+| gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | 
+| gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | 
+| gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | 
+| gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | 
+| gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | 
