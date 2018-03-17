@@ -1,5 +1,5 @@
 # GWT Starters
 GWT BOMs and POMs - GWT Dependencies and Starters
 
-GWT Boot is basically a simple starter dependencies collection 
+GWT Boot is basically a simple Starter dependencies collection 
 just like Spring Boot Starter dependencies.
