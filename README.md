@@ -1,4 +1,4 @@
-# GWT Starters
+# GWT Boot: Starters
 GWT BOMs and POMs - GWT Dependencies and Starters
 
 GWT Boot is basically a simple Starter dependencies collection 
