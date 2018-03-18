@@ -55,7 +55,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- GWT -->
+		<!-- GWT Core - Basic -->
 		<dependency>
 			<groupId>com.github.gwtboot</groupId>
 			<artifactId>gwt-boot-starter</artifactId>
