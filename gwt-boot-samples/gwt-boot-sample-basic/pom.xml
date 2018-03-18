@@ -22,21 +22,43 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
+		<!-- Using gwt-boot-starter-parent -->
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-dependencies</artifactId>
+		<artifactId>gwt-boot-starter-parent</artifactId>
 		<version>${revision}</version>
-		<relativePath>../../gwt-boot-dependencies</relativePath>
+		<!-- Normally in your project you don't need this relativePath -->
+		<relativePath>../../gwt-boot-starters/gwt-boot-starter-parent
+		</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starter-parent</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-starter-parent</name>
-	<description>GWT Boot Starter Parent Dependencies</description>
+	<artifactId>gwt-boot-sample-basic</artifactId>
+	<packaging>jar</packaging>
+	<name>gwt-boot-samples-basic</name>
+	<description>GWT Boot Sample - Basic</description>
 
-	<properties>
-		<java.version>1.8</java.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
-	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<!-- We use Spring Boot only to deliver the HTML file -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>1.5.7.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<!-- We use Spring Boot only to deliver the HTML file -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- GWT -->
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+	</dependencies>
 </project>

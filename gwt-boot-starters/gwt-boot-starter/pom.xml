@@ -23,20 +23,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-dependencies</artifactId>
+		<artifactId>gwt-boot-starters</artifactId>
 		<version>${revision}</version>
-		<relativePath>../../gwt-boot-dependencies</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starter-parent</artifactId>
+	<artifactId>gwt-boot-starter</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-boot-starter-parent</name>
-	<description>GWT Boot Starter Parent Dependencies</description>
+	<name>gwt-boot-starter</name>
+	<description>GWT Boot Starter Basic - Core Dependencies</description>
 
-	<properties>
-		<java.version>1.8</java.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
-	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+		</dependency>
+	</dependencies>
 </project>
