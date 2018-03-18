@@ -25,7 +25,7 @@
 		<groupId>com.github.lofidewanto</groupId>
 		<artifactId>gwt-boot-dependencies</artifactId>
 		<version>${revision}</version>
-		<relativePath>../../</relativePath>
+		<relativePath>../../gwt-boot-dependencies</relativePath>
 	</parent>
 	<artifactId>gwt-boot-starter-parent</artifactId>
 	<packaging>pom</packaging>
