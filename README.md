@@ -4,6 +4,8 @@
 
 GWT Boot Starter dependencies is basically a simple Starter dependencies 
 collection for GWT just like Spring Boot Starter dependencies.
+The idea is taken from 
+[Spring Boot Starters](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
 
 GWT Boot Starters are a set of convenient dependency descriptors 
 that you can include in your application. 
