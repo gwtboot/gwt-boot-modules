@@ -23,14 +23,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.gwtboot</groupId>
 	<artifactId>gwt-boot-modules</artifactId>
-	<version>${revision}</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>gwt-boot-modules</name>
 	<description>GWT Boot Modules</description>
-
-	<properties>
-		<revision>1.0.0-SNAPSHOT</revision>
-	</properties>
 
 	<modules>
 		<module>gwt-boot-dependencies</module>
