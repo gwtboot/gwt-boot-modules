@@ -48,6 +48,13 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<!-- GWT Starters -->
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter</artifactId>
+				<version>${revision}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 

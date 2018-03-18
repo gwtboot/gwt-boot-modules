@@ -27,7 +27,6 @@
 		<version>${revision}</version>
 	</parent>
 	<artifactId>gwt-boot-starter</artifactId>
-	<packaging>pom</packaging>
 	<name>gwt-boot-starter</name>
 	<description>GWT Boot Starter Basic - Core Dependencies</description>
 
