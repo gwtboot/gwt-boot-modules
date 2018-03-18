@@ -32,3 +32,13 @@ and you are good to go.
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | 
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | 
 | gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | 
+
+## Using GWT Boot Starters
+
+### Using gwt-boot-starter-parent as Parent POM
+
+Similar to [Spring Boot with Parent POM](http://www.baeldung.com/spring-boot-start)
+
+### Using without Parent POM
+
+Similar to [Spring Boot without Parent POM](http://www.baeldung.com/spring-boot-dependency-management-custom-parent)
