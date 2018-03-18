@@ -55,10 +55,20 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- GWT Core - Basic -->
+		<!-- GWT Starter Core - Basic -->
 		<dependency>
 			<groupId>com.github.gwtboot</groupId>
 			<artifactId>gwt-boot-starter</artifactId>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- We use Spring Boot only to deliver the HTML file -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>
