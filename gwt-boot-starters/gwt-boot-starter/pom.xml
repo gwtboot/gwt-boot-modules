@@ -25,6 +25,7 @@
 		<groupId>com.github.gwtboot</groupId>
 		<artifactId>gwt-boot-starters</artifactId>
 		<version>${revision}</version>
+		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-starter</artifactId>
 	<name>gwt-boot-starter</name>

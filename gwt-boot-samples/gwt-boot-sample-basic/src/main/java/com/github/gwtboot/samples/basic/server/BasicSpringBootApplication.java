@@ -16,25 +16,15 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.github.gwtboot.samples.basic.client;
+package com.github.gwtboot.samples.basic.server;
 
-import com.google.gwt.core.client.EntryPoint;
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.RootPanel;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-public class BasicGwtEntryPoint implements EntryPoint {
+@SpringBootApplication
+public class BasicSpringBootApplication {
 
-	@Override
-	public void onModuleLoad() {
-		Button button = new Button("Click me", new ClickHandler() {
-			public void onClick(ClickEvent event) {
-				Window.alert("Hello, AJAX");
-			}
-		});
-
-		RootPanel.get("mainPanel").add(button);
+	public static void main(String[] args) {
+		SpringApplication.run(BasicSpringBootApplication.class, args);
 	}
 }
