@@ -36,6 +36,5 @@
 		<module>gwt-boot-dependencies</module>
 		<module>gwt-boot-starters</module>
 		<module>gwt-boot-parent</module>
-		<module>gwt-boot-samples</module>
 	</modules>
 </project>
