@@ -67,6 +67,9 @@
 					<artifactId>gwt-maven-plugin</artifactId>
 					<version>${gwt-maven-plugin.version}</version>
 					<extensions>true</extensions>
+					<configuration>
+						<skipModule>true</skipModule>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
