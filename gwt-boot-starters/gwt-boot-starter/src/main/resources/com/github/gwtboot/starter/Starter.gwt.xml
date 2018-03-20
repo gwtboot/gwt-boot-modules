@@ -30,4 +30,7 @@
 	<source path="client"/>
 	<source path="shared"/>
 	<super-source path="super"/>
+
+	<!-- Compiler agent -->
+	<set-property name="user.agent" value="ie8,ie9,ie10,gecko1_8,safari"/>
 </module>
