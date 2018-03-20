@@ -67,6 +67,15 @@
 					<artifactId>gwt-maven-plugin</artifactId>
 					<version>${gwt-maven-plugin.version}</version>
 					<extensions>true</extensions>
+					<configuration>
+						<!-- Spring Boot as default: put the compile result under public directory -->
+						<launcherDir>
+							${project.build.directory}/classes/public
+						</launcherDir>
+						<webappDirectory>
+							${project.build.directory}/classes/public
+						</webappDirectory>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
