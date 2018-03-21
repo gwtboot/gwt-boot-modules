@@ -51,18 +51,41 @@
 	</dependencyManagement>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+
 		<!-- Minimum deps from Spring Boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-		<!-- GWT Boot Starter -->
+		<!-- Validation in 1.1.0 version for Spring -->
 		<dependency>
-			<groupId>com.github.gwtboot</groupId>
-			<artifactId>gwt-boot-starter</artifactId>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
 		</dependency>
-		<!-- For Spring exclusions -->
+		<!-- With sources for GWT user -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
+			<classifier>sources</classifier>
+		</dependency>
+
+		<!-- GWT for Spring exclusions -->
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.validation</groupId>
+					<artifactId>validation-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-dev</artifactId>
