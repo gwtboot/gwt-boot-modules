@@ -23,17 +23,23 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
+		<artifactId>gwt-boot-dependencies-with-spring-boot</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
+		<relativePath>../../gwt-boot-dependencies-with-spring-boot
+		</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
+	<artifactId>gwt-boot-starter-parent-with-spring-boot</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+	<name>gwt-boot-starter-parent-with-spring-boot</name>
+	<description>GWT Boot Starter Parent Dependencies with Spring Boot
+	</description>
 
-	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
-	</modules>
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8
+		</project.reporting.outputEncoding>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+	</properties>
 </project>

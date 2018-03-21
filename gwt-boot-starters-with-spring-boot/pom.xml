@@ -23,17 +23,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
+		<artifactId>gwt-boot-parent-with-spring-boot</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
+		<relativePath>../gwt-boot-parent-with-spring-boot</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
+	<artifactId>gwt-boot-starters-with-spring-boot</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+	<name>gwt-boot-starters-with-spring-boo</name>
+	<description>GWT Boot Starters Dependencies with Spring Boot</description>
 
 	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
+		<module>gwt-boot-starter-parent-with-spring-boot</module>
+		<module>gwt-boot-starter-with-spring-boot</module>
 	</modules>
 </project>

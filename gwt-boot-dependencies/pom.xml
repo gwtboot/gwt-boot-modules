@@ -56,11 +56,6 @@
 				<artifactId>gwt-boot-starter</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>com.github.gwtboot</groupId>
-				<artifactId>gwt-boot-starter-with-spring-boot</artifactId>
-				<version>${gwt-boot-modules.version}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
 

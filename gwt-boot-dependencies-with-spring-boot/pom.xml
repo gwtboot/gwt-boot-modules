@@ -23,23 +23,24 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-starters</artifactId>
+		<artifactId>gwt-boot-dependencies</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../</relativePath>
+		<relativePath>../gwt-boot-dependencies</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starter-with-spring-boot</artifactId>
-	<name>gwt-boot-starter-with-spring-boot</name>
-	<description>
-		GWT Boot Starter Basic - Core Dependencies with Spring Boot
-	</description>
+	<artifactId>gwt-boot-dependencies-with-spring-boot</artifactId>
+	<packaging>pom</packaging>
+	<name>gwt-boot-dependencies-with-spring-boot</name>
+	<description>GWT Boot Standard Dependencies with Spring Boot</description>
 
 	<properties>
 		<!-- Dependency versions -->
 		<spring-boot.version>1.5.7.RELEASE</spring-boot.version>
+		<validation-api.version>1.0.0.GA</validation-api.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Spring Boot -->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
@@ -47,64 +48,30 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<!-- Validation API must be overwritten, because of gwt-user -->
+			<!-- and need to have the sources for GWT
+			<dependency>
+				<groupId>javax.validation</groupId>
+				<artifactId>validation-api</artifactId>
+				<version>${validation-api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.validation</groupId>
+				<artifactId>validation-api</artifactId>
+				<version>${validation-api.version}</version>
+				<classifier>sources</classifier>
+			</dependency>
+			-->
+
+			<!-- GWT Starters -->
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-with-spring-boot</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-	<dependencies>
-		<dependency>
-			<groupId>com.github.gwtboot</groupId>
-			<artifactId>gwt-boot-starter</artifactId>
-		</dependency>
-
-		<!-- Minimum deps from Spring Boot -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<!-- Validation in 1.1.0 version for Spring -->
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>1.1.0.Final</version>
-		</dependency>
-		<!-- With sources for GWT user -->
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>1.1.0.Final</version>
-			<classifier>sources</classifier>
-		</dependency>
-
-		<!-- GWT for Spring exclusions -->
-		<dependency>
-			<groupId>com.google.gwt</groupId>
-			<artifactId>gwt-user</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>javax.validation</groupId>
-					<artifactId>validation-api</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>com.google.gwt</groupId>
-			<artifactId>gwt-dev</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>xalan</groupId>
-					<artifactId>xalan</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>xerces</groupId>
-					<artifactId>xercesImpl</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>xml-apis</groupId>
-					<artifactId>xml-apis</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-	</dependencies>
 
 	<build>
 		<pluginManagement>
@@ -113,7 +80,6 @@
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
 				</plugin>
-
 				<plugin>
 					<groupId>net.ltgt.gwt.maven</groupId>
 					<artifactId>gwt-maven-plugin</artifactId>
@@ -128,6 +94,7 @@
 						</execution>
 					</executions>
 					<configuration>
+						<failOnError>true</failOnError>
 						<!-- Spring Boot as default: put the compile result under public directory -->
 						<launcherDir>
 							${project.build.directory}/classes/public
