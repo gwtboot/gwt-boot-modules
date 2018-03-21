@@ -29,7 +29,8 @@
 	</parent>
 	<artifactId>gwt-boot-starter-with-spring-boot</artifactId>
 	<name>gwt-boot-starter-with-spring-boot</name>
-	<description>GWT Boot Starter Basic - Core Dependencies with Spring Boot
+	<description>
+		GWT Boot Starter Basic - Core Dependencies with Spring Boot
 	</description>
 
 	<properties>
