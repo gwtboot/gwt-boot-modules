@@ -49,21 +49,6 @@
 				<scope>import</scope>
 			</dependency>
 
-			<!-- Validation API must be overwritten, because of gwt-user -->
-			<!-- and need to have the sources for GWT
-			<dependency>
-				<groupId>javax.validation</groupId>
-				<artifactId>validation-api</artifactId>
-				<version>${validation-api.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>javax.validation</groupId>
-				<artifactId>validation-api</artifactId>
-				<version>${validation-api.version}</version>
-				<classifier>sources</classifier>
-			</dependency>
-			-->
-
 			<!-- GWT Starters -->
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
