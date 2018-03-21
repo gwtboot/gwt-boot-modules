@@ -29,7 +29,7 @@
 	</parent>
 	<artifactId>gwt-boot-starters-with-spring-boot</artifactId>
 	<packaging>pom</packaging>
-	<name>gwt-boot-starters-with-spring-boo</name>
+	<name>gwt-boot-starters-with-spring-boot</name>
 	<description>GWT Boot Starters Dependencies with Spring Boot</description>
 
 	<modules>
