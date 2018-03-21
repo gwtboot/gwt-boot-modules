@@ -23,46 +23,63 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-modules</artifactId>
+		<artifactId>gwt-boot-starters</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-boot-dependencies</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-dependencies</name>
-	<description>GWT Boot Standard Dependencies</description>
+	<artifactId>gwt-boot-starter-with-spring-boot</artifactId>
+	<name>gwt-boot-starter-with-spring-boot</name>
+	<description>GWT Boot Starter Basic - Core Dependencies with Spring Boot
+	</description>
 
 	<properties>
 		<!-- Dependency versions -->
-		<gwt-boot-modules.version>1.0.0-SNAPSHOT</gwt-boot-modules.version>
-		<gwt.version>2.8.2</gwt.version>
-		<gwt-maven-plugin.version>1.0-rc-9</gwt-maven-plugin.version>
+		<spring-boot.version>1.5.7.RELEASE</spring-boot.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- GWT -->
 			<dependency>
-				<groupId>com.google.gwt</groupId>
-				<artifactId>gwt</artifactId>
-				<version>${gwt.version}</version>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-
-			<!-- GWT Starters -->
-			<dependency>
-				<groupId>com.github.gwtboot</groupId>
-				<artifactId>gwt-boot-starter</artifactId>
-				<version>${gwt-boot-modules.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.github.gwtboot</groupId>
-				<artifactId>gwt-boot-starter-with-spring-boot</artifactId>
-				<version>${gwt-boot-modules.version}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<dependencies>
+		<!-- Minimum deps from Spring Boot -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- GWT Boot Starter -->
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+		<!-- For Spring exclusions -->
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-dev</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>xalan</groupId>
+					<artifactId>xalan</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>xerces</groupId>
+					<artifactId>xercesImpl</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>xml-apis</groupId>
+					<artifactId>xml-apis</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<pluginManagement>
@@ -81,7 +98,13 @@
 						</execution>
 					</executions>
 					<configuration>
-						<failOnError>true</failOnError>
+						<!-- Spring Boot as default: put the compile result under public directory -->
+						<launcherDir>
+							${project.build.directory}/classes/public
+						</launcherDir>
+						<webappDirectory>
+							${project.build.directory}/classes/public
+						</webappDirectory>
 					</configuration>
 				</plugin>
 			</plugins>

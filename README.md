@@ -33,6 +33,7 @@ and you are good to go.
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | 
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | 
 | gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | 
+| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | 
 
 ## Using GWT Boot Starters
 

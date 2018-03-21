@@ -35,5 +35,6 @@
 	<modules>
 		<module>gwt-boot-starter-parent</module>
 		<module>gwt-boot-starter</module>
+		<module>gwt-boot-starter-with-spring-boot</module>
 	</modules>
 </project>
