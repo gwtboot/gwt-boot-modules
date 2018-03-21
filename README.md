@@ -33,7 +33,13 @@ and you are good to go.
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | 
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | 
 | gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | 
-| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | 
+
+For Spring Boot developers there are separate starters with "*-with-spring-boot".
+
+| Name | Framework | Supported Browser Technology |
+| ------------- | ------------- |:-------------:| 
+| gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | No web | 
+| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | No web |
 
 ## Using GWT Boot Starters
 
