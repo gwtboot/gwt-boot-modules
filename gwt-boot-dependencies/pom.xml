@@ -37,6 +37,7 @@
 		<gwt-boot-modules.version>1.0.0-SNAPSHOT</gwt-boot-modules.version>
 		<gwt.version>2.8.2</gwt.version>
 		<gwt-maven-plugin.version>1.0-rc-9</gwt-maven-plugin.version>
+		<gwt-bootstrap3.version>0.9.4</gwt-bootstrap3.version>
 	</properties>
 
 	<dependencyManagement>
@@ -50,10 +51,33 @@
 				<scope>import</scope>
 			</dependency>
 
+			<!-- Third party libs -->
+			<dependency>
+				<groupId>org.gwtbootstrap3</groupId>
+				<artifactId>gwtbootstrap3</artifactId>
+				<version>${gwt-bootstrap3.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>com.google.gwt</groupId>
+						<artifactId>gwt-user</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.gwtbootstrap3</groupId>
+				<artifactId>gwtbootstrap3-extras</artifactId>
+				<version>${gwt-bootstrap3.version}</version>
+			</dependency>
+
 			<!-- GWT Starters -->
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-ui-gwtbootstrap3r</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 		</dependencies>
