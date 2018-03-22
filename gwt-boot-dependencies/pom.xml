@@ -77,7 +77,7 @@
 			</dependency>
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
-				<artifactId>gwt-boot-starter-ui-gwtbootstrap3r</artifactId>
+				<artifactId>gwt-boot-starter-ui-gwtbootstrap3</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 		</dependencies>
