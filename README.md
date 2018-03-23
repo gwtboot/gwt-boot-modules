@@ -1,6 +1,6 @@
 # GWT Boot: Starters
 
-https://travis-ci.org/gwtboot/gwt-boot-modules.svg?branch=master
+[![Build Status](https://travis-ci.org/gwtboot/gwt-boot-modules.svg?branch=master)](https://travis-ci.org/gwtboot/gwt-boot-modules)
 
 ## GWT BOMs and POMs - GWT Dependencies and Starters
 
