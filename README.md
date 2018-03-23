@@ -1,5 +1,7 @@
 # GWT Boot: Starters
 
+https://travis-ci.org/gwtboot/gwt-boot-modules.svg?branch=master
+
 ## GWT BOMs and POMs - GWT Dependencies and Starters
 
 GWT Boot Starter dependencies is basically a simple Starter dependencies 
