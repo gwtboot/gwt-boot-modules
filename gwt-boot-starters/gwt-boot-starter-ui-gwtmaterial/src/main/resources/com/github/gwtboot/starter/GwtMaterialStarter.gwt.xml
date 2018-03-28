@@ -17,25 +17,13 @@
  | specific language governing permissions and limitations
  | under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
-	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+<module>
+	<!-- GWT stuffs -->
+	<inherits name="com.github.gwtboot.starter.Starter"/>
 
-	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
-		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
-		<module>gwt-boot-starter-ui-gwtmaterial</module>
-	</modules>
-</project>
+	<!-- GWT Material components -->
+	<inherits name="gwt.material.design.GwtMaterialWithJQuery"/>
+	<inherits name="gwt.material.design.addins.GwtMaterialAddins"/>
+	<inherits name="gwt.material.design.GwtMaterialTable"/>
+	<inherits name="gwt.material.design.themes.ThemeBlue"/>
+</module>

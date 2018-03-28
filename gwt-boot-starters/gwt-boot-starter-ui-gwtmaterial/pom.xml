@@ -23,19 +23,34 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
+		<artifactId>gwt-boot-starters</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
+		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+	<artifactId>gwt-boot-starter-ui-gwtmaterial</artifactId>
+	<name>gwt-boot-starter-ui-gwtmaterial</name>
+	<description>GWT Boot Starter GWTMaterialDesign</description>
 
-	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
-		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
-		<module>gwt-boot-starter-ui-gwtmaterial</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.gwtmaterialdesign</groupId>
+			<artifactId>gwt-material</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.gwtmaterialdesign</groupId>
+			<artifactId>gwt-material-themes</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.gwtmaterialdesign</groupId>
+			<artifactId>gwt-material-addins</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.gwtmaterialdesign</groupId>
+			<artifactId>gwt-material-table</artifactId>
+		</dependency>
+	</dependencies>
 </project>
