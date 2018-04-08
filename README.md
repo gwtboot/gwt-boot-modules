@@ -22,7 +22,7 @@ and you are good to go.
 ## List of all supported GWT frameworks
 
 | Name | Framework | Supported Browser Technology | Status |
-| ------------- | ------------- |:-------------:| ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | gwt-boot-starter-parent | Parent starter for GWT Boot | No web | Integrated |
 | gwt-boot-starter | Standard GWT widgets | Widget | Integrated |
 | gwt-boot-starter-ui-domino | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | - |
@@ -39,7 +39,7 @@ and you are good to go.
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
 | Name | Framework | Supported Browser Technology | Status |
-| ------------- | ------------- |:-------------:| ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | No web | integrated |
 | gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | integrated |
 
