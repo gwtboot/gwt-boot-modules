@@ -21,27 +21,27 @@ and you are good to go.
 
 ## List of all supported GWT frameworks
 
-| Name | Framework | Supported Browser Technology |
-| ------------- | ------------- |:-------------:| 
-| gwt-boot-starter-parent | Parent starter for GWT Boot | No web | 
-| gwt-boot-starter | Standard GWT widgets | Widget | 
-| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | 
-| gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | 
-| gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | 
-| gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | 
-| gwt-boot-starter-ui-errai | [errai](https://github.com/errai/errai) | Elemental2 | 
-| gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | 
-| gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | 
-| gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | 
-| gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | 
-| gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | 
+| Name | Framework | Supported Browser Technology | Status |
+| ------------- | ------------- |:-------------:| ------------- |
+| gwt-boot-starter-parent | Parent starter for GWT Boot | No web | Integrated |
+| gwt-boot-starter | Standard GWT widgets | Widget | Integrated |
+| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | - |
+| gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | Integrated |
+| gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | - |
+| gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | Integrated |
+| gwt-boot-starter-ui-errai | [errai](https://github.com/errai/errai) | Elemental2 | - |
+| gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | - |
+| gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | - |
+| gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | - |
+| gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | - |
+| gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | - |
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
-| Name | Framework | Supported Browser Technology |
-| ------------- | ------------- |:-------------:| 
-| gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | No web | 
-| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | 
+| Name | Framework | Supported Browser Technology | Status |
+| ------------- | ------------- |:-------------:| ------------- |
+| gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | No web | integrated |
+| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | integrated |
 
 ## Using GWT Boot Starters
 
