@@ -23,20 +23,22 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
+		<artifactId>gwt-boot-starters</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
+		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+	<artifactId>gwt-boot-starter-restygwt</artifactId>
+	<name>gwt-boot-starter-restygwt</name>
+	<description>GWT Boot Starter RestyGWT</description>
 
-	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
-		<module>gwt-boot-starter-restygwt</module>
-		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
-		<module>gwt-boot-starter-ui-gwtmaterial</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.fusesource.restygwt</groupId>
+			<artifactId>restygwt</artifactId>
+		</dependency>
+	</dependencies>
 </project>
