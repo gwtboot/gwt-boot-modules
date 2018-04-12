@@ -40,8 +40,8 @@ For Spring Boot developers there are separate starters with **"*-with-spring-boo
 
 | Name | Framework | Supported Browser Technology | Status |
 | ------------- | ------------- | ------------- | ------------- |
-| gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | No web | integrated |
-| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | integrated |
+| gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | No web | Integrated |
+| gwt-boot-starter-with-spring-boot | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot) | Widget | Integrated |
 
 ## Using GWT Boot Starters
 
