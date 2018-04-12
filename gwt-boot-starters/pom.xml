@@ -36,8 +36,8 @@
 		<module>gwt-boot-starter-parent</module>
 		<module>gwt-boot-starter</module>
 		<module>gwt-boot-starter-restygwt</module>
+		<module>gwt-boot-starter-test</module>
 		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
 		<module>gwt-boot-starter-ui-gwtmaterial</module>
-		<module>gwt-boot-starter-test</module>
 	</modules>
 </project>
