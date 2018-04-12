@@ -40,6 +40,7 @@
 		<gwt-bootstrap3.version>0.9.4</gwt-bootstrap3.version>
 		<gwt-material.version>2.0.1</gwt-material.version>
 		<gwt-restygwt.version>2.2.3</gwt-restygwt.version>
+		<gwt-mockito.version>1.1.8</gwt-mockito.version>
 	</properties>
 
 	<dependencyManagement>
@@ -104,6 +105,13 @@
 				<artifactId>restygwt</artifactId>
 				<version>${gwt-restygwt.version}</version>
 			</dependency>
+			<!-- GWT Mockito -->
+			<dependency>
+				<groupId>com.google.gwt.gwtmockito</groupId>
+				<artifactId>gwtmockito</artifactId>
+				<version>${gwt-mockito.version}</version>
+				<scope>test</scope>
+			</dependency>
 
 			<!-- GWT Starters -->
 			<dependency>
@@ -114,6 +122,11 @@
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter-restygwt</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-test</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 			<dependency>

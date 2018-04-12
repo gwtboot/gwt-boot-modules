@@ -22,22 +22,24 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
+		<artifactId>gwt-boot-starters</artifactId>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
+		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+	<artifactId>gwt-boot-starter-test</artifactId>
+	<name>gwt-boot-starter-test</name>
+	<description>GWT Boot Starter Test</description>
 
-	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
-		<module>gwt-boot-starter-restygwt</module>
-		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
-		<module>gwt-boot-starter-ui-gwtmaterial</module>
-		<module>gwt-boot-starter-test</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt.gwtmockito</groupId>
+			<artifactId>gwtmockito</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
