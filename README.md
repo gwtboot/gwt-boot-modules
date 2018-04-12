@@ -28,7 +28,7 @@ and you are good to go.
 | gwt-boot-starter-ui-domino | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | - |
 | gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | Integrated |
 | gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | - |
-| gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | Integrated |
+| gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | In Process |
 | gwt-boot-starter-ui-errai | [errai](https://github.com/errai/errai) | Elemental2 | - |
 | gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | - |
 | gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | In Process |
