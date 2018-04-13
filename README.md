@@ -34,7 +34,7 @@ and you are good to go.
 | gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | In Process |
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | In Process |
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | In Process |
-| gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | In Process |
+| gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | Integrated |
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
