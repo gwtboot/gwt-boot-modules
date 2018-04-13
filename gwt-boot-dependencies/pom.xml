@@ -183,21 +183,6 @@
 					</executions>
 					<configuration>
 						<failOnError>true</failOnError>
-						<compilerArgs>
-							<arg>-logLevel</arg>
-							<arg>INFO</arg>
-							<arg>-generateJsInteropExports</arg>
-						</compilerArgs>
-						<devmodeArgs>
-							<arg>-logLevel</arg>
-							<arg>INFO</arg>
-							<arg>-generateJsInteropExports</arg>
-						</devmodeArgs>
-						<codeserverArgs>
-							<arg>-logLevel</arg>
-							<arg>INFO</arg>
-							<arg>-generateJsInteropExports</arg>
-						</codeserverArgs>
 					</configuration>
 				</plugin>
 			</plugins>
