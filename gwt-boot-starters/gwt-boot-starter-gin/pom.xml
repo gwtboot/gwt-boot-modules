@@ -37,7 +37,7 @@
 			<artifactId>gwt-boot-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.google.gwt.inject</groupId>
+			<groupId>io.github.gwtplus.gin</groupId>
 			<artifactId>gin</artifactId>
 		</dependency>
 	</dependencies>

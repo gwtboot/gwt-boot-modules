@@ -28,6 +28,99 @@
 	<name>gwt-boot-modules</name>
 	<description>GWT Boot Modules</description>
 
+	<!-- =============================================================== -->
+	<!-- Project committers                                              -->
+	<!-- =============================================================== -->
+	<developers>
+		<developer>
+			<id>lofidewanto@gmail.com</id>
+			<name>Dr. Lofi Dewanto</name>
+			<email>lofidewanto@gmail.com</email>
+			<organization>gwtboot</organization>
+			<organizationUrl>https://github.com/gwtboot/</organizationUrl>
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>adrien@abaron.net</id>
+			<name>Adrien Baron</name>
+			<email>adrien@abaron.net</email>
+			<organization>gwtboot</organization>
+			<organizationUrl>https://github.com/gwtboot/</organizationUrl>
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>dolb90@gmail.com</id>
+			<name>Ben Dol</name>
+			<email>dolb90@gmail.com</email>
+			<organization>gwtboot</organization>
+			<organizationUrl>https://github.com/gwtboot/</organizationUrl>
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>akabme@gmail.com</id>
+			<name>Ahmad K. Bawaneh</name>
+			<email>akabme@gmail.com</email>
+			<organization>gwtboot</organization>
+			<organizationUrl>https://github.com/gwtboot/</organizationUrl>
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
+
+	<!-- =============================================================== -->
+	<!-- SCM etc.                                                        -->
+	<!-- =============================================================== -->
+	<ciManagement>
+		<system>Travis</system>
+		<url>https://travis-ci.org/gwtboot/gwt-boot-modules</url>
+	</ciManagement>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/gwtboot/gwt-boot-modules/issues</url>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.spdx.org/licenses/Apache-2.0</url>
+		</license>
+	</licenses>
+
+	<mailingLists>
+		<mailingList>
+			<name>Development List</name>
+			<post>https://gitter.im/gwtproject/gwt</post>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git@github.com:gwtboot/gwt-boot-modules.git
+		</connection>
+		<developerConnection>
+			scm:git:git@github.com:gwtboot/gwt-boot-modules.git
+		</developerConnection>
+		<url>scm:git:git@github.com:gwtboot/gwt-boot-modules.git</url>
+	</scm>
+
+	<!-- =============================================================== -->
+	<!-- Modules                                                         -->
+	<!-- =============================================================== -->
 	<modules>
 		<module>gwt-boot-dependencies</module>
 		<module>gwt-boot-dependencies-with-spring-boot</module>

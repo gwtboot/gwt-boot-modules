@@ -34,7 +34,7 @@ and you are good to go.
 | gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
-| gwt-boot-starter-gin | [gin](https://github.com/nishtahir/google-gin) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
+| gwt-boot-starter-gin | [gin](https://github.com/gwtplus/google-gin) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
