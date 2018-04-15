@@ -110,12 +110,15 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git@github.com:gwtboot/gwt-boot-modules.git
+		<connection>
+			scm:git:git@github.com:gwtboot/gwt-boot-modules.git
 		</connection>
 		<developerConnection>
 			scm:git:git@github.com:gwtboot/gwt-boot-modules.git
 		</developerConnection>
-		<url>scm:git:git@github.com:gwtboot/gwt-boot-modules.git</url>
+		<url>
+			scm:git:git@github.com:gwtboot/gwt-boot-modules.git
+		</url>
 	</scm>
 
 	<!-- =============================================================== -->
