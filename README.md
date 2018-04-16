@@ -14,7 +14,7 @@ that you can include in your application.
 You get a one-stop-shop for all the GWT and related technology 
 that you need without having to hunt through sample code and 
 copy paste loads of dependency descriptors. For example, 
-if you want to get started using GWT and [Domino UI](https://github.com/vegegoku/domino-ui) 
+if you want to get started using GWT and [Domino UI](https://github.com/DominoKit/domino-ui) 
 for your Material Design and [Elemental2](https://github.com/google/elemental2) just include the 
 spring-boot-starter-ui-domino dependency in your project, 
 and you are good to go.
@@ -25,7 +25,7 @@ and you are good to go.
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | gwt-boot-starter-parent | Parent starter for GWT Boot | No web | Integrated | - |
 | gwt-boot-starter | Standard GWT widgets | Widget | Integrated | [gwt-boot-sample-basic](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-basic) |
-| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/vegegoku/domino-ui) | Elemental2 | - | - |
+| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/DominoKit/domino-ui) | Elemental2 | - | - |
 | gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | Integrated | [gwt-boot-sample-ui-gwtbootstrap3](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-gwtbootstrap3) |
 | gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | - | - |
 | gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | In Process | [gwt-boot-sample-ui-gwtmaterial](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-gwtmaterial) |
