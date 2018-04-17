@@ -45,6 +45,8 @@
 		<gwt-eventbinder.version>1.1.0</gwt-eventbinder.version>
 		<gwt-gin.version>3.0.0</gwt-gin.version>
 		<gwt-dominoui.version>1.0-SNAPSHOT</gwt-dominoui.version>
+		<inject-api.version>1</inject-api.version>
+		<gwt-dagger2.version>2.5</gwt-dagger2.version>
 	</properties>
 
 	<dependencyManagement>
@@ -132,6 +134,22 @@
 				<artifactId>gin</artifactId>
 				<version>${gwt-gin.version}</version>
 			</dependency>
+			<!-- Dagger2 -->
+			<dependency>
+				<groupId>javax.inject</groupId>
+				<artifactId>javax.inject</artifactId>
+				<version>${inject-api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.dagger</groupId>
+				<artifactId>dagger-gwt</artifactId>
+				<version>${gwt-dagger2.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.dagger</groupId>
+				<artifactId>dagger-compiler</artifactId>
+				<version>${gwt-dagger2.version}</version>
+			</dependency>
 			<!-- DominoUI -->
 			<dependency>
 				<groupId>org.dominokit</groupId>
@@ -149,6 +167,11 @@
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-dagger2</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 			<dependency>
