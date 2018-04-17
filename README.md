@@ -35,6 +35,7 @@ and you are good to go.
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gin | [gin](https://github.com/gwtplus/google-gin) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
+| gwt-boot-starter-dagger2 | [dagger2](https://google.github.io/dagger) | No web | Integrated | - |
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
