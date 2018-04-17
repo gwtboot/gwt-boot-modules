@@ -41,6 +41,6 @@
 		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
 		<module>gwt-boot-starter-ui-gwtmaterial</module>
 		<module>gwt-boot-starter-gwteventbinder</module>
-		<!-- <module>gwt-boot-starter-ui-domino</module> -->
+		<module>gwt-boot-starter-ui-domino</module>
 	</modules>
 </project>
