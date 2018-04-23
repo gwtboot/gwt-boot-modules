@@ -25,7 +25,7 @@ and you are good to go.
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | gwt-boot-starter-parent | Parent starter for GWT Boot | No web | Integrated | - |
 | gwt-boot-starter | Standard GWT widgets | Widget | Integrated | [gwt-boot-sample-basic](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-basic) |
-| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/DominoKit/domino-ui) | Elemental2 | - | - |
+| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/DominoKit/domino-ui) | Elemental2 | Integrated | [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
 | gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | Integrated | [gwt-boot-sample-ui-gwtbootstrap3](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-gwtbootstrap3) |
 | gwt-boot-starter-ui-vuegwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | - | - |
 | gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | In Process | [gwt-boot-sample-ui-gwtmaterial](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-gwtmaterial) |
@@ -35,7 +35,7 @@ and you are good to go.
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gin | [gin](https://github.com/gwtplus/google-gin) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
-| gwt-boot-starter-dagger2 | [dagger2](https://google.github.io/dagger) | No web | Integrated | - |
+| gwt-boot-starter-dagger2 | [dagger2](https://google.github.io/dagger) | No web | Integrated | [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
