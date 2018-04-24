@@ -24,4 +24,7 @@
 	<!-- GWT DominoUI components -->
 	<inherits name="org.dominokit.domino.ui.DominoUI"/>
 	<inherits name="org.jboss.gwt.elemento.Core"/>
+
+	<!-- GSS -->
+	<set-configuration-property name="CssResource.enableGss" value="true"/>
 </module>
