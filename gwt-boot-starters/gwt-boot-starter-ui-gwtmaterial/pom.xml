@@ -52,5 +52,9 @@
 			<groupId>com.github.gwtmaterialdesign</groupId>
 			<artifactId>gwt-material-table</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.github.gwtmaterialdesign</groupId>
+			<artifactId>gwt-material-jquery</artifactId>
+		</dependency>
 	</dependencies>
 </project>

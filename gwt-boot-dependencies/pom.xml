@@ -105,6 +105,11 @@
 				<artifactId>gwt-material-table</artifactId>
 				<version>${gwt-material.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.github.gwtmaterialdesign</groupId>
+				<artifactId>gwt-material-jquery</artifactId>
+				<version>${gwt-material.version}</version>
+			</dependency>
 			<!-- RestyGWT -->
 			<dependency>
 				<groupId>org.fusesource.restygwt</groupId>
