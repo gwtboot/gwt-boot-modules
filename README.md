@@ -33,7 +33,7 @@ and you are good to go.
 | gwt-boot-starter-ui-errai | [errai](https://github.com/errai/errai) | Elemental2 | - | - |
 | gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | - | - |
 | gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
-| gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
+| gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection), [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gin | [gin](https://github.com/gwtplus/google-gin) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-dagger2 | [dagger2](https://google.github.io/dagger) | No web | Integrated | [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
