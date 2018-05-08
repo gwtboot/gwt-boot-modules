@@ -25,7 +25,7 @@ and you are good to go.
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | gwt-boot-starter-parent | Parent starter for GWT Boot | No web | Integrated | - |
 | gwt-boot-starter | Standard GWT widgets | Widget | Integrated | [gwt-boot-sample-basic](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-basic) |
-| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/DominoKit/domino-ui) | Elemental2 | Integrated | [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
+| gwt-boot-starter-ui-domino | [domino-ui](https://github.com/DominoKit/domino-ui) | Elemental2 | Integrated | [gwt-boot-sample-ui-domino](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino), [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
 | gwt-boot-starter-ui-gwtbootstrap3 | [gwtbootstrap3](https://github.com/gwtbootstrap3/gwtbootstrap3) | Widget | Integrated | [gwt-boot-sample-ui-gwtbootstrap3](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-gwtbootstrap3) |
 | gwt-boot-starter-ui-vue-gwt | [vue-gwt](https://github.com/Axellience/vue-gwt) | Elemental2 | Integrated | [gwt-boot-sample-ui-vue-gwt](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-vue-gwt) |
 | gwt-boot-starter-ui-gwtreact | [gwt-react](https://github.com/GWTReact/gwt-react) | Elemental2 | - | - |
