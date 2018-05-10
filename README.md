@@ -31,7 +31,7 @@ and you are good to go.
 | gwt-boot-starter-ui-gwtreact | [gwt-react](https://github.com/GWTReact/gwt-react) | Elemental2 | - | - |
 | gwt-boot-starter-ui-gwtmaterial | [gwt-material](https://github.com/GwtMaterialDesign/gwt-material) | Widget | Integrated | [gwt-boot-sample-ui-gwtmaterial](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-gwtmaterial) |
 | gwt-boot-starter-ui-errai | [errai](https://github.com/errai/errai) | Elemental2 | - | - |
-| gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | - | - |
+| gwt-boot-starter-rxgwt | [rxgwt](https://github.com/intendia-oss/rxgwt) | No web | Integrated | [gwt-boot-sample-rxgwt](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-rxgwt) | |
 | gwt-boot-starter-restygwt | [resty-gwt](https://github.com/resty-gwt/resty-gwt) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-test | [gwtmockito](https://github.com/google/gwtmockito) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection), [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |

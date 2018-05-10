@@ -23,27 +23,28 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
-		<artifactId>gwt-boot-parent</artifactId>
+		<artifactId>gwt-boot-starters</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../gwt-boot-parent</relativePath>
+		<relativePath>../</relativePath>
 	</parent>
-	<artifactId>gwt-boot-starters</artifactId>
-	<packaging>pom</packaging>
-	<name>gwt-boot-starters</name>
-	<description>GWT Boot Starters Dependencies</description>
+	<artifactId>gwt-boot-starter-rxgwt</artifactId>
+	<name>gwt-boot-starter-rxgwt</name>
+	<description>GWT Boot Starter RxGWT</description>
 
-	<modules>
-		<module>gwt-boot-starter-parent</module>
-		<module>gwt-boot-starter</module>
-		<module>gwt-boot-starter-dagger2</module>
-		<module>gwt-boot-starter-gin</module>
-		<module>gwt-boot-starter-restygwt</module>
-		<module>gwt-boot-starter-rxgwt</module>
-		<module>gwt-boot-starter-test</module>
-		<module>gwt-boot-starter-ui-gwtbootstrap3</module>
-		<module>gwt-boot-starter-ui-gwtmaterial</module>
-		<module>gwt-boot-starter-gwteventbinder</module>
-		<module>gwt-boot-starter-ui-domino</module>
-		<module>gwt-boot-starter-ui-vue-gwt</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.gwtboot</groupId>
+			<artifactId>gwt-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.intendia.gwt.rxgwt2</groupId>
+			<artifactId>rxgwt</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.gwt.elemento</groupId>
+			<artifactId>elemento-core</artifactId>
+			<version>0.8.2-gwt2</version>
+		</dependency>
+	</dependencies>
 </project>
