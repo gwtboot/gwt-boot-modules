@@ -48,6 +48,8 @@
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.5</gwt-dagger2.version>
 		<vue-gwt.version>1.0-beta-7</vue-gwt.version>
+		<rx-gwt.version>2.2</rx-gwt.version>
+		<elemento-core.version>0.8.2-gwt2</elemento-core.version>
 	</properties>
 
 	<dependencyManagement>
@@ -179,6 +181,17 @@
 				<artifactId>vue-gwt-processors</artifactId>
 				<version>${vue-gwt.version}</version>
 				<optional>true</optional>
+			</dependency>
+			<!-- RxGWT -->
+			<dependency>
+				<groupId>com.intendia.gwt.rxgwt2</groupId>
+				<artifactId>rxgwt</artifactId>
+				<version>${rx-gwt.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.gwt.elemento</groupId>
+				<artifactId>elemento-core</artifactId>
+				<version>${elemento-core.version}</version>
 			</dependency>
 
 			<!-- GWT Starters -->
