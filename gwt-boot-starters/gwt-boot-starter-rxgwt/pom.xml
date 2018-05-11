@@ -31,6 +31,10 @@
 	<name>gwt-boot-starter-rxgwt</name>
 	<description>GWT Boot Starter RxGWT</description>
 
+	<properties>
+		<gwt.version>2.8.2-rx1</gwt.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.github.gwtboot</groupId>
