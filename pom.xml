@@ -80,6 +80,18 @@
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
+		<developer>
+			<id>ignacio@bacamt.com</id>
+			<name>Ignacio Baca Moreno-Torres</name>
+			<email>ignacio@bacamt.com</email>
+			<organization>gwtboot</organization>
+			<organizationUrl>https://github.com/gwtboot/</organizationUrl>
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
 	</developers>
 
 	<!-- =============================================================== -->
