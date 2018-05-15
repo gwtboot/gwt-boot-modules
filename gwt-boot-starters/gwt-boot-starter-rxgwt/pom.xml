@@ -33,6 +33,7 @@
 
 	<properties>
 		<gwt.version>2.8.2-rx1</gwt.version>
+		<elemento-core.version>0.8.2-gwt2</elemento-core.version>
 	</properties>
 
 	<dependencies>
@@ -47,6 +48,7 @@
 		<dependency>
 			<groupId>org.jboss.gwt.elemento</groupId>
 			<artifactId>elemento-core</artifactId>
+			<version>${elemento-core.version}</version>
 		</dependency>
 	</dependencies>
 </project>
