@@ -92,6 +92,18 @@
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
+		<developer>
+			<id>harald.pehl@gmail.com</id>
+			<name>Harald Pehl</name>
+			<email>harald.pehl@gmail.com</email>
+			<organization>gwtboot</organization>
+			<organizationUrl>https://github.com/gwtboot/</organizationUrl>
+			<roles>
+				<role>Architect</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
 	</developers>
 
 	<!-- =============================================================== -->

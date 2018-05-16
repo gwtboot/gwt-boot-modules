@@ -37,6 +37,8 @@ and you are good to go.
 | gwt-boot-starter-gwteventbinder | [gwteventbinder](https://github.com/google/gwteventbinder) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-gin | [gin](https://github.com/gwtplus/google-gin) | No web | Integrated | [gwt-boot-sample-collection](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-collection) |
 | gwt-boot-starter-dagger2 | [dagger2](https://google.github.io/dagger) | No web | Integrated | [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
+| gwt-boot-starter-elemento-core | [elemento](https://github.com/hal/elemento) | Elemental2 | Integrated | [gwt-boot-sample-elemento-core](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-elemento-core) | 
+| gwt-boot-starter-elemento-template | [elemento](https://github.com/hal/elemento) | Elemental2 | Integrated | [gwt-boot-sample-elemento-template](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-elemento-template) | 
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 

@@ -45,6 +45,7 @@
 		<gwt-eventbinder.version>1.1.0</gwt-eventbinder.version>
 		<gwt-gin.version>3.0.0</gwt-gin.version>
 		<gwt-dominoui.version>1.0-SNAPSHOT</gwt-dominoui.version>
+		<gwt-elemento.version>0.8.2</gwt-elemento.version>
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.5</gwt-dagger2.version>
 		<vue-gwt.version>1.0-beta-7</vue-gwt.version>
@@ -191,6 +192,23 @@
 				<artifactId>rxgwt</artifactId>
 				<version>${rx-gwt.version}</version>
 			</dependency>
+			<!-- Elemento -->
+			<dependency>
+				<groupId>org.jboss.gwt.elemento</groupId>
+				<artifactId>elemento-core</artifactId>
+				<version>${gwt-elemento.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.gwt.elemento</groupId>
+				<artifactId>elemento-template-api</artifactId>
+				<version>${gwt-elemento.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.gwt.elemento</groupId>
+				<artifactId>elemento-template-processor</artifactId>
+				<version>${gwt-elemento.version}</version>
+				<optional>true</optional>
+			</dependency>
 
 			<!-- GWT Starters -->
 			<dependency>
@@ -246,6 +264,16 @@
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter-ui-vue-gwt</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-elemento-core</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-elemento-template</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 		</dependencies>
