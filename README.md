@@ -56,3 +56,7 @@ Similar to [Spring Boot with Parent POM](http://www.baeldung.com/spring-boot-sta
 ### Using without Parent POM
 
 Similar to [Spring Boot without Parent POM](http://www.baeldung.com/spring-boot-dependency-management-custom-parent)
+
+## Wiki
+
+Check out our Wiki for [How-Tos](https://github.com/gwtboot/gwt-boot-modules/wiki)
