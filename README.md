@@ -59,4 +59,8 @@ Similar to [Spring Boot without Parent POM](http://www.baeldung.com/spring-boot-
 
 ## Wiki
 
-Check out our Wiki for [How-Tos](https://github.com/gwtboot/gwt-boot-modules/wiki)
+Check out our Wiki for [How-Tos](https://github.com/gwtboot/gwt-boot-modules/wiki) and other information.
+
+## Examples
+
+Example of each Starter can be found at the table above "Examples" column. All the examples are in this [repository](https://github.com/gwtboot/gwt-boot-samples).
