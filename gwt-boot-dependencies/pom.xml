@@ -48,8 +48,8 @@
 		<gwt-elemento.version>0.8.2</gwt-elemento.version>
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.5</gwt-dagger2.version>
-		<vue-gwt.version>1.0-beta-7</vue-gwt.version>
-		<rx-gwt.version>2.2</rx-gwt.version>
+		<vue-gwt.version>1.0-beta-9</vue-gwt.version>
+    <rx-gwt.version>2.2</rx-gwt.version>
 	</properties>
 
 	<dependencyManagement>
