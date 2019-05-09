@@ -32,5 +32,8 @@ target
 .classpath
 .settings
 
+# VSCode
+.factorypath
+
 .env
 */web/WEB-INF/web.xml
