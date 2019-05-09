@@ -34,6 +34,7 @@ target
 
 # VSCode
 .factorypath
+.vscode
 
 .env
 */web/WEB-INF/web.xml
