@@ -296,7 +296,7 @@
 			</dependency>
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
-				<artifactId>gwt-boot-domino-rest</artifactId>
+				<artifactId>gwt-boot-starter-domino-rest</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 		</dependencies>
