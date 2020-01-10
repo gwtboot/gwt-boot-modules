@@ -43,7 +43,6 @@
 		<dependency>
 			<groupId>org.dominokit</groupId>
 			<artifactId>domino-rest-apt</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.dominokit</groupId>
