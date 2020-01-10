@@ -45,7 +45,7 @@
 		<gwt-eventbinder.version>1.1.0</gwt-eventbinder.version>
 		<gwt-gin.version>3.0.0</gwt-gin.version>
 		<gwt-dominoui.version>1.0-SNAPSHOT</gwt-dominoui.version>
-		<gwt-elemento.version>0.8.6</gwt-elemento.version>
+		<gwt-elemento.version>0.9.6</gwt-elemento.version>
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.5</gwt-dagger2.version>
 		<vue-gwt.version>1.0-beta-9</vue-gwt.version>
