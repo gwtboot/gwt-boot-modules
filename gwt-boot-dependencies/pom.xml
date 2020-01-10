@@ -49,7 +49,8 @@
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.5</gwt-dagger2.version>
 		<vue-gwt.version>1.0-beta-9</vue-gwt.version>
-    <rx-gwt.version>2.2</rx-gwt.version>
+    	<rx-gwt.version>2.2</rx-gwt.version>
+    	<gwt-domino-rest.version>1.0-rc.4-SNAPSHOT</gwt-domino-rest.version>
 	</properties>
 
 	<dependencyManagement>
@@ -209,7 +210,24 @@
 				<version>${gwt-elemento.version}</version>
 				<optional>true</optional>
 			</dependency>
-
+			<!-- Domino REST -->
+			<dependency>
+				<groupId>org.dominokit</groupId>
+				<artifactId>domino-rest-gwt</artifactId>
+				<version>${gwt-domino-rest.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.dominokit</groupId>
+				<artifactId>domino-rest-apt</artifactId>
+				<version>${gwt-domino-rest.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.dominokit</groupId>
+				<artifactId>domino-rest-shared</artifactId>
+				<version>${gwt-domino-rest.version}</version>
+			</dependency>
+			
 			<!-- GWT Starters -->
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
@@ -274,6 +292,11 @@
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter-elemento-template</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-domino-rest</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 		</dependencies>
