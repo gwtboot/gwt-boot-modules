@@ -39,6 +39,7 @@ and you are good to go.
 | gwt-boot-starter-dagger2 | [dagger2](https://google.github.io/dagger) | No web | Integrated | [gwt-boot-sample-ui-domino-dagger2](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-ui-domino-dagger2) |
 | gwt-boot-starter-elemento-core | [elemento](https://github.com/hal/elemento) | Elemental2 | Integrated | [gwt-boot-sample-elemento-core](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-elemento-core) | 
 | gwt-boot-starter-elemento-template | [elemento](https://github.com/hal/elemento) | Elemental2 | Integrated | [gwt-boot-sample-elemento-template](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-elemento-template) | 
+| gwt-boot-starter-domino-rest | [Domino REST](https://github.com/DominoKit/domino-rest) | Elemental2 | Integrated | [gwt-boot-sample-domino-rest](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-domino-rest) | 
 
 For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
 
