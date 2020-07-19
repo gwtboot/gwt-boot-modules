@@ -27,6 +27,9 @@ target
 .idea
 *.iml
 
+# Mac
+.DS_STORE
+
 # Eclipse
 .project
 .classpath
