@@ -22,5 +22,5 @@
 	<inherits name="com.github.gwtboot.starter.Starter"/>
 
 	<!-- Elemento Core -->
-	<inherits name="org.jboss.gwt.elemento.Core"/>
+	<inherits name="org.jboss.elemento.Core"/>
 </module>
