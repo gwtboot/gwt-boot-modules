@@ -30,6 +30,11 @@
 	<artifactId>gwt-boot-starter-elemento-template</artifactId>
 	<name>gwt-boot-starter-elemento-template</name>
 	<description>GWT Boot Elemento Template</description>
+	
+	<properties>
+		<gwt.version>2.8.2</gwt.version>
+		<elemento-core.version>0.9.6</elemento-core.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -37,8 +42,9 @@
 			<artifactId>gwt-boot-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jboss.elemento</groupId>
+			<groupId>org.jboss.gwt.elemento</groupId>
 			<artifactId>elemento-core</artifactId>
+			<version>${elemento-core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.gwt.elemento</groupId>
