@@ -4,6 +4,8 @@
 
 ## GWT BOMs and POMs - GWT Dependencies and Starters
 
+!!!GWT Boot Starter is !NOT! an integration between Spring Boot and GWT!!!
+
 GWT Boot Starter dependencies is basically a simple Starter dependencies 
 collection for GWT just like Spring Boot Starter dependencies.
 The idea is taken from 
@@ -40,19 +42,6 @@ and you are good to go.
 | gwt-boot-starter-elemento-core     | [elemento](https://github.com/hal/elemento)                       | Elemental2                   | Integrated | [gwt-boot-sample-elemento-core](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-elemento-core)                                                                                                                           |
 | gwt-boot-starter-elemento-template | [elemento](https://github.com/hal/elemento)                       | Elemental2                   | Integrated | [gwt-boot-sample-elemento-template](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-elemento-template)                                                                                                                   |
 | gwt-boot-starter-domino-rest       | [domino-rest](https://github.com/DominoKit/domino-rest)           | Elemental2                   | Integrated | [gwt-boot-sample-domino-rest](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-domino-rest)                                                                                                                               |
-
-For Spring Boot developers there are separate starters with **"*-with-spring-boot"**.
-
-| Name                                     | Framework                                                                                      | Supported Browser Technology | Status     | Examples                                                                                                                                 |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| gwt-boot-starter-parent-with-spring-boot | Parent starter for GWT Boot with [Spring Boot](https://github.com/spring-projects/spring-boot) | No web                       | Integrated | -                                                                                                                                        |
-| gwt-boot-starter-with-spring-boot        | Standard GWT running with [Spring Boot](https://github.com/spring-projects/spring-boot)        | Widget                       | Integrated | [gwt-boot-sample-basic-with-spring-boot](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-basic-with-spring-boot) |
-
-For Quarkus developers folow "*-with-quarkus-io".
-| Name                                   | Framework                                                      | Supported Browser Technology | Status     | Examples                                                                                                                             |
-| -------------------------------------- | -------------------------------------------------------------- | ---------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| gwt-boot-starter-parent-with-quarkusio | Parent starter for GWT Boot with [Quarkus](https://quarkus.io) | No web                       | Integrated | -                                                                                                                                    |
-| gwt-boot-starter-with-quarkusio        | Standard GWT running with [Quarkus](https://quarkus.io)        | Widget                       | Integrated | [gwt-boot-sample-basic-with-quarkus](https://github.com/gwtboot/gwt-boot-samples/tree/master/gwt-boot-sample-basic-with-spring-boot) |
 
 ## Using GWT Boot Starters
 
