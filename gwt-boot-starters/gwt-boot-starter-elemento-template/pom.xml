@@ -32,7 +32,6 @@
 	<description>GWT Boot Elemento Template</description>
 	
 	<properties>
-		<gwt.version>2.8.2</gwt.version>
 		<elemento-core.version>0.9.6</elemento-core.version>
 	</properties>
 
