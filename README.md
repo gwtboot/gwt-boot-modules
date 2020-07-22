@@ -18,7 +18,7 @@ that you need without having to hunt through sample code and
 copy paste loads of dependency descriptors. For example, 
 if you want to get started using GWT and [Domino UI](https://github.com/DominoKit/domino-ui) 
 for your Material Design and [Elemental2](https://github.com/google/elemental2) just include the 
-spring-boot-starter-ui-domino dependency in your project, 
+`gwt-boot-starter-ui-domino` dependency in your project, 
 and you are good to go.
 
 ## List of all supported GWT frameworks
