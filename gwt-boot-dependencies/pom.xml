@@ -52,7 +52,7 @@
 		<vue-gwt.version>1.0-beta-10-SNAPSHOT</vue-gwt.version>
 		<rx-gwt.version>2.2</rx-gwt.version>
 		<gwt-domino-rest.version>1.0-rc.4-SNAPSHOT</gwt-domino-rest.version>
-		<dncomponents.version>2.3.0</dncomponents.version>
+		<dncomponents.version>2.3.1</dncomponents.version>
 	</properties>
 
 	<dependencyManagement>
@@ -233,12 +233,6 @@
 				<groupId>com.dncomponents.core</groupId>
 				<artifactId>template_annotation_processor</artifactId>
 				<version>${dncomponents.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>tools</groupId>
-						<artifactId>com.sun</artifactId>
-					</exclusion>
-				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>com.dncomponents.core</groupId>
