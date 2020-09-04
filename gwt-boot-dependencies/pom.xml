@@ -228,6 +228,7 @@
 				<artifactId>domino-rest-shared</artifactId>
 				<version>${gwt-domino-rest.version}</version>
 			</dependency>
+
 			<!-- dncomponents -->
 			<dependency>
 				<groupId>com.dncomponents.core</groupId>
