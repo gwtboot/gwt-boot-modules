@@ -52,6 +52,7 @@
 		<vue-gwt.version>1.0-beta-10-SNAPSHOT</vue-gwt.version>
 		<rx-gwt.version>2.2</rx-gwt.version>
 		<gwt-domino-rest.version>1.0-rc.4-SNAPSHOT</gwt-domino-rest.version>
+		<dncomponents.version>2.3.1</dncomponents.version>
 	</properties>
 
 	<dependencyManagement>
@@ -227,7 +228,25 @@
 				<artifactId>domino-rest-shared</artifactId>
 				<version>${gwt-domino-rest.version}</version>
 			</dependency>
-			
+
+			<!-- dncomponents -->
+			<dependency>
+				<groupId>com.dncomponents.core</groupId>
+				<artifactId>template_annotation_processor</artifactId>
+				<version>${dncomponents.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.dncomponents.core</groupId>
+				<artifactId>core-uui</artifactId>
+				<version>${dncomponents.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.dncomponents.core</groupId>
+				<artifactId>bootstrap-ui</artifactId>
+				<version>${dncomponents.version}</version>
+				<scope>compile</scope>
+			</dependency>
 			<!-- GWT Starters -->
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
@@ -282,6 +301,11 @@
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter-ui-vue-gwt</artifactId>
+				<version>${gwt-boot-modules.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.gwtboot</groupId>
+				<artifactId>gwt-boot-starter-ui-dncomponents</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
 			<dependency>
