@@ -24,6 +24,7 @@
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>gwt-boot-modules</name>
+	<url>https://github.com/gwtboot/gwt-boot-modules</url>
 	<description>GWT Boot Modules</description>
 
 	<!-- =============================================================== -->
