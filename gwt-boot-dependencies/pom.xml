@@ -24,7 +24,7 @@
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
 		<artifactId>gwt-boot-modules</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-dependencies</artifactId>
@@ -34,7 +34,7 @@
 
 	<properties>
 		<!-- Dependency versions -->
-		<gwt-boot-modules.version>1.0.0-SNAPSHOT</gwt-boot-modules.version>
+		<gwt-boot-modules.version>1.0.0</gwt-boot-modules.version>
 		<gwt.version>2.9.0</gwt.version>
 		<gwt-maven-plugin.version>1.0.0</gwt-maven-plugin.version>
 		<gwt-bootstrap3.version>0.9.4</gwt-bootstrap3.version>

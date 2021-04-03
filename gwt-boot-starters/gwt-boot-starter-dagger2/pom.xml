@@ -24,7 +24,7 @@
 	<parent>
 		<artifactId>gwt-boot-starters</artifactId>
 		<groupId>com.github.gwtboot</groupId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-starter-dagger2</artifactId>
