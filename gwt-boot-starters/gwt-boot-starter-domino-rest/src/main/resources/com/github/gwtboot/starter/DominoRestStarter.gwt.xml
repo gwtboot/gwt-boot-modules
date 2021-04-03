@@ -22,5 +22,5 @@
 	<inherits name="com.github.gwtboot.starter.Starter"/>
 
 	<!-- Domino REST -->
-	<inherits name="org.dominokit.domino.rest.GwtRest"/>
+	<inherits name="org.dominokit.rest.Rest"/>
 </module>

@@ -44,14 +44,15 @@
 		<gwt-mockito.version>1.1.9</gwt-mockito.version>
 		<gwt-eventbinder.version>1.1.0</gwt-eventbinder.version>
 		<gwt-gin.version>3.0.0</gwt-gin.version>
-		<gwt-dominoui.version>1.0-SNAPSHOT</gwt-dominoui.version>
+		<gwt-dominoui.version>1.0.0-RC1</gwt-dominoui.version>
 		<gwt-elemento.version>1.0.1</gwt-elemento.version>
 		<gwt-elemento-template.version>0.9.6</gwt-elemento-template.version>
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.28.3</gwt-dagger2.version>
-		<vue-gwt.version>1.0-beta-10-SNAPSHOT</vue-gwt.version>
+		<vue-gwt.version>1.0.1</vue-gwt.version>
 		<rx-gwt.version>2.2</rx-gwt.version>
-		<gwt-domino-rest.version>1.0-rc.4-SNAPSHOT</gwt-domino-rest.version>
+      	<rx-java-gwt.version>2.2.10-gwt1</rx-java-gwt.version>
+		<gwt-domino-rest.version>1.0.0-RC1</gwt-domino-rest.version>
 		<dncomponents.version>2.3.2</dncomponents.version>
 	</properties>
 
@@ -195,6 +196,11 @@
 				<artifactId>rxgwt</artifactId>
 				<version>${rx-gwt.version}</version>
 			</dependency>
+			<dependency>
+      			<groupId>com.intendia.gwt</groupId>
+      			<artifactId>rxjava2-gwt</artifactId>
+      			<version>${rx-java-gwt.version}</version>
+    		</dependency>
 			<!-- Elemento -->
 			<dependency>
 				<groupId>org.jboss.elemento</groupId>
@@ -215,12 +221,12 @@
 			<!-- Domino REST -->
 			<dependency>
 				<groupId>org.dominokit</groupId>
-				<artifactId>domino-rest-gwt</artifactId>
+				<artifactId>domino-rest-client</artifactId>
 				<version>${gwt-domino-rest.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.dominokit</groupId>
-				<artifactId>domino-rest-apt</artifactId>
+				<artifactId>domino-rest-processor</artifactId>
 				<version>${gwt-domino-rest.version}</version>
 			</dependency>
 			<dependency>
@@ -228,8 +234,7 @@
 				<artifactId>domino-rest-shared</artifactId>
 				<version>${gwt-domino-rest.version}</version>
 			</dependency>
-
-			<!-- dncomponents -->
+			<!-- DnComponents -->
 			<dependency>
 				<groupId>com.dncomponents.core</groupId>
 				<artifactId>template_annotation_processor</artifactId>

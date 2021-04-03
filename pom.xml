@@ -158,32 +158,6 @@
 	</distributionManagement>
 
 	<!-- =============================================================== -->
-	<!-- Repositories                                                    -->
-	<!-- =============================================================== -->
-	<repositories>
-		<repository>
-			<id>rxjava-gwt-repo</id>
-			<name>RX Java GWT</name>
-			<url>https://raw.githubusercontent.com/intendia-oss/rxjava-gwt/mvn-repo/</url>
-		</repository>
-		<repository>
-			<id>vertispan-snapshots</id>
-			<name>Vertispan Snapshots</name>
-			<url>https://repo.vertispan.com/gwt-snapshot/</url>
-		</repository>
-		<repository>
-			<id>sonatype-snapshots</id>
-			<name>Sonatype Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-				<checksumPolicy>fail</checksumPolicy>
-			</snapshots>
-		</repository>
-	</repositories>
-
-	<!-- =============================================================== -->
 	<!-- Modules                                                         -->
 	<!-- =============================================================== -->
 	<modules>

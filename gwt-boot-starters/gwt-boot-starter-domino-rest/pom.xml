@@ -38,15 +38,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.dominokit</groupId>
-			<artifactId>domino-rest-gwt</artifactId>
+			<artifactId>domino-rest-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.dominokit</groupId>
-			<artifactId>domino-rest-apt</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.dominokit</groupId>
-			<artifactId>domino-rest-shared</artifactId>
+			<artifactId>domino-rest-processor</artifactId>
 		</dependency>
 	</dependencies>
 </project>
