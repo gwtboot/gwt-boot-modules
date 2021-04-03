@@ -23,6 +23,8 @@ for your Material Design and [Elemental2](https://github.com/google/elemental2) 
 `gwt-boot-starter-ui-domino` dependency in your project, 
 and you are good to go.
 
+**GWT Boot Starter artifacts are released on the [Maven Central](https://search.maven.org/search?q=gwt-boot)**
+
 ## List of all supported GWT frameworks
 
 | Name                               | Framework                                                         | Supported Browser Technology | Status     | GWT / Elemento Core Version | Examples                                                                                                                                                                                                                                         |
