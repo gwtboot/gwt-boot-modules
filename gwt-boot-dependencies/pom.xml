@@ -24,7 +24,7 @@
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
 		<artifactId>gwt-boot-modules</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-dependencies</artifactId>
@@ -33,8 +33,10 @@
 	<description>GWT Boot Standard Dependencies</description>
 
 	<properties>
+		<!-- GWT Boot Modules version -->
+		<gwt-boot-modules.version>1.0.1-SNAPSHOT</gwt-boot-modules.version>
+		
 		<!-- Dependency versions -->
-		<gwt-boot-modules.version>1.0.0</gwt-boot-modules.version>
 		<gwt.version>2.9.0</gwt.version>
 		<gwt-maven-plugin.version>1.0.0</gwt-maven-plugin.version>
 		<gwt-bootstrap3.version>0.9.4</gwt-bootstrap3.version>
@@ -252,7 +254,8 @@
 				<version>${dncomponents.version}</version>
 				<scope>compile</scope>
 			</dependency>
-			<!-- GWT Starters -->
+			
+			<!-- GWT Starters used for without parent pom.xml -->
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter</artifactId>

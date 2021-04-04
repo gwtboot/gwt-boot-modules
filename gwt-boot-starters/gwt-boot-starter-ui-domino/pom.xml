@@ -24,7 +24,7 @@
 	<parent>
 		<artifactId>gwt-boot-starters</artifactId>
 		<groupId>com.github.gwtboot</groupId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-starter-ui-domino</artifactId>

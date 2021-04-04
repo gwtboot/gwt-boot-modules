@@ -41,3 +41,6 @@ target
 
 .env
 */web/WEB-INF/web.xml
+
+# Maven versions backup
+pom.xml.versionsBackup
