@@ -52,6 +52,7 @@
 		<vue-gwt.version>1.0-beta-10-SNAPSHOT</vue-gwt.version>
 		<rx-gwt.version>2.2</rx-gwt.version>
 		<gwt-domino-rest.version>1.0-rc.4-SNAPSHOT</gwt-domino-rest.version>
+		<dncomponents.version>2.4.1</dncomponents.version>
 	</properties>
 
 	<dependencyManagement>
