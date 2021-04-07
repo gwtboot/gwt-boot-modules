@@ -55,7 +55,7 @@
 		<rx-gwt.version>2.2</rx-gwt.version>
       	<rx-java-gwt.version>2.2.10-gwt1</rx-java-gwt.version>
 		<gwt-domino-rest.version>1.0.0-RC1</gwt-domino-rest.version>
-		<dncomponents.version>2.3.2</dncomponents.version>
+		<dncomponents.version>2.4.1</dncomponents.version>
 	</properties>
 
 	<dependencyManagement>
