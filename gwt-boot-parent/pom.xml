@@ -24,7 +24,7 @@
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
 		<artifactId>gwt-boot-dependencies</artifactId>
-		<version>1.0.1</version>
+		<version>1.0.2-SNAPSHOT</version>
 		<relativePath>../gwt-boot-dependencies</relativePath>
 	</parent>
 	<artifactId>gwt-boot-parent</artifactId>
