@@ -24,7 +24,7 @@
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
 		<artifactId>gwt-boot-starters</artifactId>
-		<version>1.0.2-SNAPSHOT</version>
+		<version>1.0.1</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-starter-ui-gwtmaterial</artifactId>
