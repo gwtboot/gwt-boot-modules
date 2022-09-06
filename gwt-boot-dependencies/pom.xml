@@ -311,11 +311,6 @@
 			</dependency>
 			<dependency>
 				<groupId>com.github.gwtboot</groupId>
-				<artifactId>gwt-boot-starter-elemento-template</artifactId>
-				<version>${gwt-boot-modules.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.github.gwtboot</groupId>
 				<artifactId>gwt-boot-starter-domino-rest</artifactId>
 				<version>${gwt-boot-modules.version}</version>
 			</dependency>
