@@ -46,7 +46,6 @@
 		<module>gwt-boot-starter-ui-domino</module>
 		<module>gwt-boot-starter-ui-vue-gwt</module>
 		<module>gwt-boot-starter-elemento-core</module>
-		<module>gwt-boot-starter-elemento-template</module>
 		<module>gwt-boot-starter-domino-rest</module>
 		<module>gwt-boot-starter-ui-dncomponents</module>
 	</modules>

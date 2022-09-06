@@ -32,7 +32,7 @@
 	<description>GWT Boot Starter RxGWT</description>
 
 	<properties>
-		<elemento-core.version>0.9.1-gwt2</elemento-core.version>
+		<elemento-core.version>1.0.10-gwtcom</elemento-core.version>
 	</properties>
 
 	<dependencies>
@@ -49,7 +49,7 @@
       		<artifactId>rxjava2-gwt</artifactId>
     	</dependency>
 		<dependency>
-			<groupId>org.jboss.gwt.elemento</groupId>
+			<groupId>org.jboss.elemento</groupId>
 			<artifactId>elemento-core</artifactId>
 			<version>${elemento-core.version}</version>
 		</dependency>

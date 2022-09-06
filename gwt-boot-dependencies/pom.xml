@@ -48,11 +48,10 @@
 		<gwt-gin.version>3.0.0</gwt-gin.version>
 		<gwt-dominoui.version>1.0.0-RC13</gwt-dominoui.version>
 		<gwt-elemento.version>1.0.10</gwt-elemento.version>
-		<gwt-elemento-template.version>0.9.6</gwt-elemento-template.version>
 		<inject-api.version>1</inject-api.version>
 		<gwt-dagger2.version>2.43.2</gwt-dagger2.version>
 		<vue-gwt.version>1.0.1</vue-gwt.version>
-		<rx-gwt.version>2.2</rx-gwt.version>
+		<rx-gwt.version>2.3</rx-gwt.version>
       	<rx-java-gwt.version>2.2.20-gwt1</rx-java-gwt.version>
 		<gwt-domino-rest.version>1.0.0-RC7</gwt-domino-rest.version>
 		<dncomponents.version>2.4.2</dncomponents.version>
@@ -208,17 +207,6 @@
 				<groupId>org.jboss.elemento</groupId>
 				<artifactId>elemento-core</artifactId>
 				<version>${gwt-elemento.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.jboss.gwt.elemento</groupId>
-				<artifactId>elemento-template-api</artifactId>
-				<version>${gwt-elemento-template.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.jboss.gwt.elemento</groupId>
-				<artifactId>elemento-template-processor</artifactId>
-				<version>${gwt-elemento-template.version}</version>
-				<optional>true</optional>
 			</dependency>
 			<!-- Domino REST -->
 			<dependency>
