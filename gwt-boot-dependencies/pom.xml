@@ -52,7 +52,7 @@
 		<gwt-dagger2.version>2.43.2</gwt-dagger2.version>
 		<vue-gwt.version>1.0.1</vue-gwt.version>
 		<rx-gwt.version>2.3</rx-gwt.version>
-                <rx-java-gwt.version>2.2.20-gwt1</rx-java-gwt.version>
+		<rx-java-gwt.version>2.2.20-gwt1</rx-java-gwt.version>
 		<gwt-domino-rest.version>1.0.0-RC7</gwt-domino-rest.version>
 		<dncomponents.version>2.4.2</dncomponents.version>
 	</properties>
