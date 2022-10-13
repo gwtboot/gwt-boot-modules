@@ -24,7 +24,7 @@
 	<parent>
 		<groupId>com.github.gwtboot</groupId>
 		<artifactId>gwt-boot-modules</artifactId>
-		<version>1.1.0</version>
+		<version>1.2.0-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>gwt-boot-dependencies</artifactId>
@@ -34,7 +34,7 @@
 
 	<properties>
 		<!-- GWT Boot Modules version -->
-		<gwt-boot-modules.version>1.1.0</gwt-boot-modules.version>
+		<gwt-boot-modules.version>1.2.0-SNAPSHOT</gwt-boot-modules.version>
 		
 		<!-- Dependency versions -->
 		<gwt.version>2.10.0</gwt.version>
@@ -189,8 +189,8 @@
 			</dependency>
 			<!-- RxGWT -->
 			<!-- RxGWT uses special version of GWT
-				 and special version of Elemento, this cannot be mixed
-				 with other libs like DominoUI
+				and special version of Elemento, this cannot be mixed
+				with other libs like DominoUI
 			-->
 			<dependency>
 				<groupId>com.intendia.gwt.rxgwt2</groupId>
@@ -198,10 +198,10 @@
 				<version>${rx-gwt.version}</version>
 			</dependency>
 			<dependency>
-      			<groupId>com.intendia.gwt</groupId>
-      			<artifactId>rxjava2-gwt</artifactId>
-      			<version>${rx-java-gwt.version}</version>
-    		</dependency>
+				<groupId>com.intendia.gwt</groupId>
+				<artifactId>rxjava2-gwt</artifactId>
+				<version>${rx-java-gwt.version}</version>
+			</dependency>
 			<!-- Elemento -->
 			<dependency>
 				<groupId>org.jboss.elemento</groupId>
