@@ -37,23 +37,24 @@
 		<gwt-boot-modules.version>1.2.0-SNAPSHOT</gwt-boot-modules.version>
 		
 		<!-- Dependency versions -->
-		<gwt.version>2.10.0</gwt.version>
-		<gwt-maven-plugin.version>1.0.1</gwt-maven-plugin.version>
-		<gwt-bootstrap3.version>0.9.4</gwt-bootstrap3.version>
-		<gwt-material.version>2.6.1</gwt-material.version>
+		<gwt.version>2.13.0</gwt.version>
+		<gwt-maven-plugin.version>1.2.0</gwt-maven-plugin.version>
+		<gwt-bootstrap3.version>1.0.1</gwt-bootstrap3.version>
+		<gwt-bootstrap3-extras.version>1.0.2</gwt-bootstrap3-extras.version>
+		<gwt-material.version>2.8.5</gwt-material.version>
 		<gwt-restygwt.version>2.2.7</gwt-restygwt.version>
-		<rs-api.version>2.1</rs-api.version>
+		<rs-api.version>2.1.1</rs-api.version>
 		<gwt-mockito.version>1.1.9</gwt-mockito.version>
 		<gwt-eventbinder.version>1.1.0</gwt-eventbinder.version>
 		<gwt-gin.version>3.0.0</gwt-gin.version>
-		<gwt-dominoui.version>1.0.0-RC13</gwt-dominoui.version>
-		<gwt-elemento.version>1.0.10</gwt-elemento.version>
+		<gwt-dominoui.version>2.1.0</gwt-dominoui.version>
+		<gwt-elemento.version>2.4.9</gwt-elemento.version>
 		<inject-api.version>1</inject-api.version>
-		<gwt-dagger2.version>2.43.2</gwt-dagger2.version>
+		<gwt-dagger2.version>2.59.2</gwt-dagger2.version>
 		<vue-gwt.version>1.0.1</vue-gwt.version>
 		<rx-gwt.version>2.3</rx-gwt.version>
 		<rx-java-gwt.version>2.2.20-gwt1</rx-java-gwt.version>
-		<gwt-domino-rest.version>1.0.0-RC7</gwt-domino-rest.version>
+		<gwt-domino-rest.version>2.0.0</gwt-domino-rest.version>
 		<dncomponents.version>2.4.2</dncomponents.version>
 	</properties>
 
@@ -61,7 +62,7 @@
 		<dependencies>
 			<!-- GWT -->
 			<dependency>
-				<groupId>com.google.gwt</groupId>
+				<groupId>org.gwtproject</groupId>
 				<artifactId>gwt</artifactId>
 				<version>${gwt.version}</version>
 				<type>pom</type>
@@ -84,7 +85,7 @@
 			<dependency>
 				<groupId>org.gwtbootstrap3</groupId>
 				<artifactId>gwtbootstrap3-extras</artifactId>
-				<version>${gwt-bootstrap3.version}</version>
+				<version>${gwt-bootstrap3-extras.version}</version>
 			</dependency>
 			<!-- GWTMaterialDesign -->
 			<dependency>
@@ -337,15 +338,15 @@
 						<failOnError>true</failOnError>
 					</configuration>
 				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.7.0</version>
-					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
-					</configuration>
-				</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>

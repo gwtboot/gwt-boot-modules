@@ -31,10 +31,6 @@
 	<name>gwt-boot-starter-rxgwt</name>
 	<description>GWT Boot Starter RxGWT</description>
 
-	<properties>
-		<elemento-core.version>1.0.10-gwtcom</elemento-core.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>com.github.gwtboot</groupId>
@@ -51,7 +47,6 @@
 		<dependency>
 			<groupId>org.jboss.elemento</groupId>
 			<artifactId>elemento-core</artifactId>
-			<version>${elemento-core.version}</version>
 		</dependency>
 	</dependencies>
 </project>
